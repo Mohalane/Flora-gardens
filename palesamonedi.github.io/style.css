@@ -1,0 +1,137 @@
+:root{
+    -moz-column-rule-color: rgb(243, 156, 243);
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+}
+
+html{
+    font-size: 62.5%;  
+    scroll-behavior: smooth;    
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+
+section{
+    padding: 2rem 9%;
+    font-size: large;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: rgb(233, 180, 238);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgb(226, 65, 213);
+}
+
+header .logo{
+    font-size: 3rem;
+    color:black;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: hotpink;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+header .navbar a{
+    color var:blueviolet';
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;    
+    color: rgb(0, 0, 0);    
+    border-radius: .5rem;   
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: 1rem solid black;
+    display: none;
+}
+
+.home{
+    display: flex;
+    align-self: center; 
+    min-height: 100vh;
+    background:url(roses.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    text-align: top;
+    
+}
+.home .content h1{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(238, 227, 227);
+    font-weight: bold;
+}
+.home .content p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(245, 189, 242);
+    font-weight: bold;
+    font-style: italic;
+}
+.home .content .btn{
+    background-color: magenta;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.products .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.1);
+    border-radius: .5rem;
+    border-radius: .1rem solid;
+    padding: 1;
+    text-align: center;
+    overflow: hidden;
+    
+}
+    
+.contacts .contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
